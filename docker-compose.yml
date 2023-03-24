@@ -169,7 +169,7 @@ services:
       FOREIGN_KEY_MODE: "disallow"
 
   vitess-test-8_0:
-    image: vitess/vttestserver:mysql80@sha256:9412e3d51bde38e09c3039090b5c68808e299579f12c79178a4ec316f7831889
+    image: vitess/vttestserver:mysql80@sha256:279628409a02e25a4183851c130664354d9f5cd35a149dce6189e427b861adb2
     restart: always
     ports:
       - 33807:33807
@@ -193,7 +193,7 @@ services:
       FOREIGN_KEY_MODE: "disallow"
 
   vitess-shadow-8_0:
-    image: vitess/vttestserver:mysql80@sha256:9412e3d51bde38e09c3039090b5c68808e299579f12c79178a4ec316f7831889
+    image: vitess/vttestserver:mysql80@sha256:279628409a02e25a4183851c130664354d9f5cd35a149dce6189e427b861adb2
     restart: always
     ports:
       - 33808:33807
